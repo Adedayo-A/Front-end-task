@@ -1,0 +1,194 @@
+/**************
+    BODY
+******************/
+body {
+
+}
+
+/*********************
+    OVERALL CONTAINER
+**********************/
+.overall-container-1 {
+    border-width: 0.5px;
+    border-color: rgb(0, 0, 0.40);
+    border-style: outset;
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+    margin-left: 500px;
+    margin-top: 50px;
+
+    /*********************
+        SECOND CONTAINER
+    **********************/
+    .second-container {
+        padding: 2%;
+    }
+
+
+    /*****************
+        NAV
+    ******************/
+
+    .nav-invite-people {
+        display: inline-block;
+        height: 60px;
+        font-weight: 550;
+        margin-left: -1%;
+    }
+
+    .nav-image {
+        display: inline-block;
+        margin-left: 0%;
+        margin-top: -1%;
+    }
+
+    .nav-image img {
+        margin-bottom: -37%;
+        margin-left: -15%;
+    }
+
+    .nav-close {
+        display: inline-block;
+        margin-left: 40%;
+        font-size: 20px;
+        opacity: 0.6;
+    }
+
+    /*****************
+        FIRST LAYER
+    ******************/
+    .div-first-layer {
+        margin-top: 1%;
+        display: flex;
+    }
+
+    .div-email {
+        flex-grow: 0.7;
+    }
+
+    .div-fullname {
+
+    }
+
+    /*****************
+        SECOND LAYER
+    ******************/
+    .div-second-layer {
+        margin-top: 1%;
+        display: flex;
+    }
+
+    .div-input-email {
+        flex-grow: 1;
+    }
+
+    .div-input-email input {
+        /*border-radius: 5px;
+        border-top-width: 0.5px;
+        border-left-width: 0.5px; */
+    }
+
+    .div-input-fullname {
+
+    }
+
+    .div-input-fullname input {
+        /* border-radius: 5px;
+        border-top-width: 0.5px;
+        border-left-width: 0.5px; */
+    }
+
+    .div-input-email input::placeholder , .div-input-fullname input::placeholder {
+        opacity: 0.6;
+    }
+
+    /*****************
+        THIRD LAYER
+    ******************/
+    .div-third-layer {
+        margin-top: 1%;
+        display: flex;
+    }
+
+    .div-icon-text {
+        flex-grow: 0.3;
+    }
+
+    .div-icon {
+        display: inline-block;
+    }
+    .div-icon img {
+        margin-bottom: -45%;
+    }
+
+    .div-text {
+        display: inline-block;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 13px;
+        color: #7ac2f1;
+    }
+
+    .div-icon-text2 {
+    }
+
+    .div-icon2 {
+        display: inline-block;
+    }
+    .div-icon2 img {
+        margin-bottom: -45%;
+    }
+
+    .div-text2 {
+        display: inline-block;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 13px;
+        color: #64b8ef;
+    }
+
+    /*****************
+        FOURTH LAYER
+    ******************/
+    .div-fourth-layer {
+        text-align: center;
+        font-size: 12px;
+        letter-spacing: 0.3px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .div-fourth-layer p:nth-of-type(2) {
+        margin-top: -4%;
+    }
+    .div-fourth-layer p:nth-of-type(2) span {
+        color: #64b8ef;
+    }
+
+    /*****************
+        FIFTH LAYER
+    ******************/
+
+    .div-fifth-layer {
+        margin-top: 1%;
+        margin-right: 0.4%;
+        margin-left: 0.4%;
+        background-color: #f0f2f5;
+        border-radius: 3.5px;
+        height: 40px;
+    }
+
+    .div-invite {
+        margin-left: 83%;
+        margin-top: 0%;
+    }
+
+    .button-invite {
+        background-color: #5a53fd;
+        border-radius: 5px;
+        width: 60px;
+        height: 27px;
+        color: #ffffff;
+        font-size: 11px;
+        text-align: center;
+        margin-top: 10%;
+    }
+
+}
