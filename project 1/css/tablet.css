@@ -1,0 +1,180 @@
+      /*start of medium tablet styles*/
+      @media screen and (min-device-width: 481px) and (max-device-width: 768px) {
+        nav {
+            margin-top: 3%;
+          } 
+          nav h4 {
+              font-size: 20px;
+              margin-right: 5%;
+              opacity: 0.9;
+          }
+  
+          /*************************
+              SECTION .INTRO-MSG
+          **************************/
+          section.intro-msg {
+              text-align: center;
+              margin-top: 17%;
+          }
+          section.intro-msg h4 {
+              font-size: 23px;
+              letter-spacing: 0.6px;
+          }
+  
+          
+          /****************************
+              SECTION .CARDS
+          ***************************/
+  
+          .cards{
+              align-content: center;
+          }
+          .container {
+              /* margin: 18% 7.8% 15.6% 6%; */
+              display: flex;
+              flex-flow: row wrap;
+          }
+          .container div {
+              width: 29%;
+              height: 140px;
+              margin-right: 4%;
+              margin-bottom: 4%;
+              flex: initial;
+              background-position: center;
+              background-size: cover;
+          }
+  
+              /*************************
+                  SECTION .TEXT
+              ***************************/
+  
+              section.text {
+                  text-align: center;
+                  margin-top: -9%;
+              }
+  
+              .text h4 {
+                  font-family: 'Circular Std Book', Helvetica Neue, Helvetica, Arial, sans-serif;
+                  font-size: 22px;
+                  color: rgba(255,255,255,0.81);
+                  font-weight: inherit;
+                  letter-spacing: 0.8px;
+              }
+  
+              /************************
+                  SECTION .LOGOS
+              ************************/
+  
+              section.logos {
+                  align-content: center;
+              }
+  
+              .logos img {
+                  display: inline-block;
+                  width: 70px;
+                  height: auto;
+              }
+  
+              .logos img:nth-of-type(1) {
+                  margin-right: 2%;
+              }
+  
+              .logos img:nth-of-type(2) {
+                  margin-right: 5%;
+              }
+  
+              .logos img:nth-of-type(3) {
+                  margin-right: 5%;
+              }
+  
+              .logos img:nth-of-type(4) {
+                  margin-right: 5%;
+              }
+  
+              .logos img:nth-of-type(5) {
+                  margin-right: 5%;
+              }
+  
+              /**********************
+                  SECTION .GREETINGS
+              ***********************/
+              .greetings h4 {
+                  margin-top: 13%;
+                  font-family: "Circular-Std-Book" , Helvetica Neue, Helvetica, Arial, sans-serif;
+                  font-size: 22px;
+                  letter-spacing: 1.0px;
+                  color: rgba(255,255,255,0.81);
+                  opacity: 0.9;
+                  text-align: center;
+                  font-weight: initial;
+              }
+  
+              .greetings h4:nth-of-type(2) {
+                  margin-top: -2.5%;
+                  color: #FFFFFF;
+                  opacity: 0.9;
+                  font-weight: inherit;
+                  letter-spacing: 1.8px;
+              }
+              /***********************
+                      FOOTER
+              ***********************/
+  
+              footer {
+                  text-align: center;
+                  margin-top: 10%;
+              }
+  
+              footer div {
+                  display: inline-block;
+                  border: 1px solid #FFFFFF;
+                  border-radius: 25px;
+                  width: 25px;
+                  height: 25px;
+                  margin-right: 13px;
+              }
+  
+              footer img {
+                  display: inline-block;
+                  width: 10px;
+                  height: auto;
+                  align-content: center;
+              }
+  
+              footer div:nth-child(1) img {
+                  margin: 5px 10px;
+                  align-content: center;
+              }
+              
+              
+              footer div:nth-child(2) img{
+                  margin: 10px 9px;
+              }
+  
+              footer div:nth-child(3) img {
+                  align-content: center;
+              }
+  
+              footer div:nth-child(4) img {
+                  margin: 9px 9px;
+              }
+  
+              footer div:nth-child(5){
+                  margin: px 6px 0px 0px;
+              }
+  
+              /*************************
+                  DIVISION .COPYWRIGHT
+              **************************/
+              .copywright {
+                  text-align: center;
+                  margin-top: 8%;
+                  font-family: Circular-Std-Book;
+                  font-size: 18px;
+                  color: #FFFFFF;
+                  opacity: 0.8;
+                  text-align: center;
+                  font-weight: 300;
+                  letter-spacing: 1.2px;
+              }
+    }

@@ -1,0 +1,219 @@
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
+   
+ body {
+    background-image: url(../images/Background.png);
+    /* padding: 35%; */
+    background-size: cover;
+}
+
+    /*****************
+        FORM
+    ******************/
+    form {
+            padding: 44px 50.8px 51.3px 52px;
+            margin: 5%;
+            background-color: #FFFFFF;
+            border-radius: 7.5px;
+            width: 584.6px;
+            height: 693px;
+            box-shadow: 0 15px 30px 0 rgba(0,0,0,0.30);
+        }
+
+    /********************
+        HEADING AND LOGO
+    *********************/
+    .heading {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .div-img {
+        flex-grow: 0.43;
+        /* margin-bottom: 3.5%;
+        margin-left: 8%; */
+    }
+    
+
+    .div-heading {
+    margin-top: 0.8px;
+    margin-left: -30%;
+    }
+
+    .div-heading p:nth-of-type(1) {
+        font-family: "Helvetica";
+        font-size: 30px;
+        color: #3842B8;
+        letter-spacing: 0.56px;
+        margin-top: -1%;
+        text-align: left;
+    }
+
+    .div-heading p:nth-of-type(2) {
+        font-family: "Helvetica";
+        font-size: 19.5px;
+        color: #43444C;
+        letter-spacing: 0.56px;
+        text-align: left;
+        margin-top: -20%;
+    }
+
+    
+    /*********************************
+        CARD NUMBERS AND INPUT BOX
+    **********************************/
+
+    .txt-card-num-cvc {
+        margin-bottom: 0.2%;
+        height: 80px;
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .txt-card-number {
+        flex-grow: 0.94;
+        font-family: "Helvetica";
+        font-size: 19.5px;
+        color: #000000;
+        letter-spacing: 0.45px;
+        text-align: left;
+        font-weight: inherit;
+    }
+
+    .txt-card-cvc {
+        font-family: "Helvetica";
+        font-size: 19.5px;
+        color: #000000;
+        letter-spacing: 0.45px;
+        text-align: left;
+        font-weight: inherit;
+    }
+
+    .input-numbers {
+        
+    }
+      
+    .input-password{
+        width: 460px;
+        height: 45px;
+        background: #E6E7EE;
+        border-radius: 7.5px;
+        left: 0;
+        margin-top: -15%;
+    }
+    
+    .input-cvc {
+        width: 10%;
+        height: 45px;
+        background: #E6E7EE;
+        border-radius: 7.5px;
+        position: absolute;
+        margin-left: 65%;
+        margin-top: -4.6%;
+    }
+
+    /*********************************
+        HOLDER NAME
+    **********************************/
+    .div-holder-name{
+        margin-bottom: 2%;
+    }
+    .txt-holder-name{
+        font-family: "Helvetica";
+        font-size: 19.5px;
+        color: #000000;
+        letter-spacing: 0.45px;
+        text-align: left;
+        font-weight: inherit;
+    }
+    
+    .div-input-name {    
+    
+    }
+
+    .input-name {
+        width: 580px;
+        height: 45px;
+        background: #E6E7EE;
+        border-radius: 7.5px;
+        margin-top: -15%;
+    }
+
+    /*********************************
+        EXPIRATION DATE
+    **********************************/
+    .div-expiration-date {
+        margin-bottom: 0%;
+    }
+    .txt-expiration-date {
+        font-family: "Lato-Bold";
+        font-size: 19.5px;
+        color: #000000;
+        letter-spacing: 1.12px;
+        text-align: left;
+        font-weight: inherit;   
+    }
+
+    .div-calendar{
+        margin-top: -12%;
+    }
+
+    .select-days {
+        width: 100%;
+        height: 45px;
+        background: #E6E7EE;
+        border-radius: 7.5px;
+        margin-left: -30%;
+        margin-top: 26.5px;
+    }
+
+    .select-months {
+        width: 100%;
+        height: 45px;
+        background: #E6E7EE;
+        border-radius: 7.5px;
+        /* margin-left: -30%; */
+        margin-top: 26.5px;
+    }
+    .select-years {
+        width: 100%;
+        height: 45px;
+        background: #E6E7EE;
+        border-radius: 7.5px;
+        /* margin-left: -70%; */
+        margin-top: 26.5px;
+        margin-left: 30px;
+    }
+
+    
+    /*********************************
+        BUTTON
+    **********************************/
+    button {
+        background-image: linear-gradient(-90deg, #4A67E7 1%, #3942B8 99%);
+        border-radius: 7.5px;
+        width: 100%;
+        height: 67px;
+        margin-top: 4%;
+    }
+    button span {
+        font-family: Helvetica;
+        /* font-size: 8px; */
+        color: #FFFFFF;
+        letter-spacing: 0.2px;
+        text-align: left;
+    }
+    /*********************************
+        FORM TWO
+    **********************************/
+    .form-two {
+        background-color: #E6E7EE;
+        box-shadow: 0 15px 29px 0 rgba(0,0,0,0.30);
+        border-radius: 7.2px;
+        width: 584.6px;
+        height: 460px;
+        position: absolute;
+        top: 25px;
+        z-index: -1;
+        right: 0px;
+        margin-left: 300px;
+    }
+}

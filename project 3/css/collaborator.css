@@ -1,0 +1,100 @@
+/**************
+    BODY
+******************/
+body {
+
+}
+
+/*********************
+    OVERALL CONTAINER
+**********************/
+.overall-container {
+    border-width: 0.5px;
+    border-color: rgb(0, 0, 0, 0.40);
+    border-style: outset;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+
+/*********************
+    SECOND CONTAINER
+**********************/
+.second-container {
+    padding: 2%;
+}
+
+
+/*****************
+    NAV
+******************/
+
+.nav-collaborator {
+    display: inline-block;
+    height: 60px;
+    font-weight: 520;
+    margin-left: -1%;
+}
+
+.nav-image {
+    display: inline-block;
+    margin-left: 0%;
+    margin-top: -1%;
+}
+
+.nav-image img {
+    margin-bottom: -37%;
+    margin-left: -15%;
+}
+
+.nav-close {
+    display: inline-block;
+    margin-left: 40%;
+    font-size: 20px;
+    opacity: 0.6;
+}
+
+/*****************
+    FIRST LAYER
+******************/
+.div-first-layer {
+    /* text-align: center; */
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.div-first-layer p:nth-of-type(2) {
+    margin-top: -2%;
+}
+
+/*****************
+    SECOND LAYER
+******************/
+
+.div-second-layer {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 1%;
+    /* margin-right: 0.4%;
+    margin-left: 0.4%; */
+    /* background-color: #f0f2f5; */
+    /* border-radius: 3.5px; */
+    /* height: 40px; */
+}
+
+.div-dismiss {
+    margin-right: 3%;
+}
+
+.button-dismiss {
+    background-color: #5a53fd;
+    border-radius: 5px;
+    width: 60px;
+    height: 30px;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    margin-top: 10%;
+}

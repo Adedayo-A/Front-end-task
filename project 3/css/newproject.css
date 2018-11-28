@@ -1,0 +1,211 @@
+/**************
+    BODY
+******************/
+body {
+
+}
+
+/*********************
+    OVERALL CONTAINER
+**********************/
+.overall-container {
+    border-width: 0.5px;
+    border-color: rgb(0, 0, 0, 0.40);
+    border-style: outset;
+    border-radius: 10px;
+    width: 400px;
+    height: 260px;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+
+/*********************
+    SECOND CONTAINER
+**********************/
+.second-container {
+    padding: 2%;
+}
+
+
+/*****************
+    NAV
+******************/
+
+.nav-new-project {
+    display: inline-block;
+    height: 60px;
+    font-weight: 550;
+}
+
+.nav-image {
+    display: inline-block;
+    margin-left: 0.3%;
+    margin-top: -1%;
+}
+
+.nav-image img {
+    margin-bottom: -40%;
+}
+
+.nav-close {
+    display: inline-block;
+    margin-left: 60%;
+    opacity: 0.3;
+}
+
+/*****************
+    INPUT-TEXT
+******************/
+.container-for-input {
+
+}
+
+
+.div-design-team {
+    width: 100px;
+    height: 40px;
+    border-radius: 3px;
+    display: inline-block;
+    /* margin-left: -12%; */
+}
+
+.div-design-team select {
+    border-width: 1px;
+    color: rgb(0, 0, 0, 0.40);
+    width: 160px;
+    border-radius:5px;
+    height: 35px;
+}
+
+.div-input {
+    width: 190px;
+    height: 40px;
+    border-radius: 7px;
+    margin-right: 6%;
+    display: inline-block;
+}
+.div-input input {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border-top-width: 1px;
+    border-left-width: 1px;
+}
+
+.div-input input::placeholder {
+    padding-left: 3%;
+    opacity: 0.7;
+}
+
+/*****************
+    FIRST LAYER
+******************/
+.div-first-layer {
+    margin-top: 1%;
+    display: flex;
+}
+
+.div-icon-text {
+    flex-grow: 1;
+}
+
+.div-icon {
+    display: inline-block;
+}
+.div-icon img {
+    margin-bottom: -45%;
+}
+
+.div-text {
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+}
+
+.div-img-public {
+
+}
+
+.div-img-public img {
+    margin-bottom: -40%;
+}
+
+
+/*****************
+    SECOND LAYER
+******************/
+
+
+.div-icon-text2 {
+    flex-grow: 1;
+}
+
+.div-icon2 {
+    display: inline-block;
+}
+
+.div-icon2 img {
+    margin-bottom: -45%;
+}
+
+.div-text2 {
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+}
+
+.div-select-attribute {
+    display: inline-block;
+    margin-left: 26%;
+    margin-bottom: -6%;
+}
+
+.div-select-attribute select {
+    margin-top: 13%;
+    border: 0px;
+    color: rgb(0, 0, 0, 0.50);
+}
+
+.div-second-layer {
+    margin-top: 1%;
+    display: flex;
+}
+
+/*****************
+    THIRD LAYER
+******************/
+.third-layer {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 1.7%;
+    margin-right: 0.95%;
+    background-color: #f0f2f5;
+    border-radius: 3.5px;
+}
+
+.div-more-options {
+    flex-grow: 1;
+}
+
+.div-more-options p{
+    color: rgb(0, 0, 0, 0.60);
+    margin-left: 3%;
+    font-size: 13px;
+}
+
+.div-more-options p span {
+    color: rgb(0, 0, 0, 0.40);
+}
+
+.div-create-project {
+    margin-right: 5%;
+    margin-top: 1.8%;
+}
+
+.button-create-project {
+    background-color: #5a53fd;
+    border-radius: 3.5px;
+    height: 30px;
+    color: #ffffff;
+    font-size: 11px;
+}
